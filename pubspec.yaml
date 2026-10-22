@@ -1,0 +1,123 @@
+name: my_journal
+description: My Journal - Plan Your Day. Capture Your Story. Grow Every Day.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.13.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Navigation
+  go_router: ^14.3.0
+
+  # HTTP client
+  dio: ^5.7.0
+
+  # Secure storage
+  flutter_secure_storage: ^9.2.2
+
+  # Internationalization
+  intl: ^0.19.0
+
+  # UUID
+  uuid: ^4.5.1
+
+  # Image picker
+  image_picker: ^1.1.2
+
+  # Audio recording
+  record: ^5.2.0
+
+  # Audio playback
+  audioplayers: ^6.1.0
+
+  # Local notifications
+  flutter_local_notifications: ^18.0.1
+
+  # Timezone
+  timezone: ^0.9.4
+
+  # PDF generation
+  pdf: ^3.11.1
+  printing: ^5.14.0
+
+  # Path provider
+  path_provider: ^2.1.4
+
+  # Home widget
+  home_widget: ^0.7.0
+
+  # Charts
+  fl_chart: ^0.69.0
+
+  # Shared preferences
+  shared_preferences: ^2.3.3
+
+  # Permission handler
+  permission_handler: ^11.3.1
+
+  # Cached network image
+  cached_network_image: ^3.4.1
+
+  # Lottie for animations
+  lottie: ^3.1.3
+
+  # Table calendar
+  table_calendar: ^3.1.3
+
+  # Shimmer loading
+  shimmer: ^3.0.0
+
+  # Flutter svg
+  flutter_svg: ^2.0.10+1
+
+  # Dotted border
+  dotted_border: ^2.1.0
+
+  # Cupertino icons
+  cupertino_icons: ^1.0.8
+
+  # HTTP (dart)
+  http: ^1.2.2
+
+  # Crypto
+  crypto: ^3.0.5
+
+  # Connectivity plus
+  connectivity_plus: ^6.1.1
+
+  # Package info
+  package_info_plus: ^8.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  riverpod_generator: ^2.6.1
+  build_runner: ^2.4.13
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Poppins-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
